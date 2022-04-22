@@ -1,5 +1,6 @@
 body {
     font-size: 125%;
+
 }
 
 nav ul {
@@ -13,11 +14,23 @@ nav a {
     text-decoration: none;
     display: block;
     padding: 0.5em 1em;
-    background-color: #999999;
+    background-color: #d4d4d4;
     color: #101010;
     border: 1px solid black;
 }
 
 nav a:hover {
     background-color: #f9f9f9;
+}
+
+a:link {
+    color:;
+}
+
+a:visited{
+    color:;
+}
+
+a:hover { 
+    color:;   
 }
