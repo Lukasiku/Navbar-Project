@@ -2,7 +2,7 @@ body {
     font-size: 125%;
     color: #000000;
     background-color: #92817A;
-    font-family: ;
+    font-family: 'Quattrocento', serif;
 }
 header, main, footer {
     width: 40em;
@@ -17,10 +17,13 @@ nav ul {
     flex-direction: column;
     height: 0;
     opacity: 0;
+    transform: translatex(-100%);
+    transition: all 0.5s ease-in;
 }
-nav ul.open {
+nav.open ul{
     opacity: 1;
     height: auto;
+    transform: translatex(0);
 }
 nav a {
     text-decoration: none;
@@ -79,13 +82,15 @@ a.current {
 #menu-toggle div {
     width: 50%;
     height: 3px;
-    background-color: ;
+    background-color: black;
     margin: 4px auto;
     transform: translateY(12px);
+    opacity: 1;
 }
 @media only screen and (min-width: 600px) {
     nav ul {
         flex-direction: row;
+        transform: translateX(0);
     }
     #menu-toggle {
         opacity: 0;
