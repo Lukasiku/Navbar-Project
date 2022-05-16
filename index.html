@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Navbar Project</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles1.css">
 </head>
 <body>
     <header>
         <h1>Responsive Navbar Project</h1>
-        <nav id="menu"></nav>
-        <nav>
+        <div id="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+        <nav id="global-nav">
             <ul>
-                <li><a href="index.html">home</a></li>
+                <li><a class="current" href="index.html">home</a></li>
                 <li><a href="#">news</a></li>
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">about us</a></li>
@@ -53,6 +57,12 @@
             </ul>
     </main>
     <footer id="footer">
+        <h2>Credits</h2>
+        <h3>Lorem Ipsum Generated via</h3>
+        <ul>
+            <li><a href="https://litipsum.com/">litipsum.com</a></li>
+        </ul>
+
         <p>Page Design by Lukas Semenyuk &copy;</p>
     </footer>
 </body>
