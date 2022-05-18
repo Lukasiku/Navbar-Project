@@ -1,7 +1,7 @@
 body {
     font-size: 125%;
     color: #000000;
-    background-color: #92817A;
+    background-color: #e6e6e6;
     font-family: 'Quattrocento', serif;
 }
 header, main, footer {
@@ -29,7 +29,7 @@ nav a {
     text-decoration: none;
     display: block;
     padding: 0.5em 1em;
-    background-color: #c0b6b2;
+    background-color: #bdbdbd;
     width: 150px;
 }
 nav a:link {
@@ -49,14 +49,14 @@ a:link {
 }
 
 a:visited{
-    color: #68534b;
+    color: black;
 }
 
 a:hover { 
-    color: #92817A;   
+    color: black;   
 }
 a:active {
-    color: #F1DaBf;
+    color: #Fa5858;
 }
 a.current {
     background-color: ;
