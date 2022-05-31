@@ -11,14 +11,11 @@ window.onload = function() {
     }
 
     toggle.onclick = function() {
-        if (globalNavbar.classList.contains("open")) {
-            globalNavbar.classList.remove("open");
-        }
-        else {
-            globalNavbar.classList.add("open");
-        }
+        globalNavbar.classList.toggle("open");
+        toggle.classList.toggle("open");
     }
 }
+
 
 window.onresize = function() {
     var screenWidth = window.innerWidth;

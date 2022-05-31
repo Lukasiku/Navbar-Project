@@ -30,7 +30,7 @@ nav a {
     display: block;
     padding: 0.5em 1em;
     background-color: #bdbdbd;
-    width: 150px;
+    width: 75px;
 }
 nav a:link {
     text-decoration: none;
@@ -59,8 +59,8 @@ a:active {
     color: #Fa5858;
 }
 a.current {
-    background-color: ;
-    color: ;
+    background-color: #bdbdbd;
+    color: black;
 }
 .material-symbols-outlined {
     font-variation-settings: 
@@ -70,7 +70,7 @@ a.current {
     'opsz' 48;
 }
 #menu-toggle:hover {
-    background-color: ;
+    background-color: #f9f9f9;
 }
 #menu-toggle div {
     width: 50%;
